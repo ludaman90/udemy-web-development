@@ -31,6 +31,18 @@
         color: goldenrod;
       }
 
+      th{
+        color: skyblue;
+      }
+
+      td{
+        color: white;
+      }
+
+      label{
+        color: white;
+      }
+
       hr{
         background-color: goldenrod;
         border-style: none;
