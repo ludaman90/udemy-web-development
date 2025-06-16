@@ -1,0 +1,10 @@
+ body{
+        background-color: lightgray;
+      }
+
+      hr{
+        background-color: white;
+        border-style: none;
+        height: 2.5px;
+      }
+      
