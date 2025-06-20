@@ -1,50 +1,50 @@
  body{
-        background-color: rgb(23, 22, 22);      
-      }
+ background-color: rgb(23, 22, 22);
+}
 
-      h1{
-        color: goldenrod;
-      }
+h1{
+  color: goldenrod;
+}
 
-      h2{
-        color: skyblue;
-      }
+h2{
+  color: skyblue;
+}
 
-      h3{
-        color: skyblue;
-      }
+h3{
+  color: skyblue;
+}
 
-      p{
-        color: white;
-      }
+p{
+  color: white;
+}
 
-      ul{
-        color: white;
-      }
+ul{
+  color: white;
+}
 
-      ol{
-        color: white;
-      }
+ol{
+  color: white;
+}
 
-      a{
-        color: goldenrod;
-      }
+a{
+  color: goldenrod;
+}
 
-      th{
-        color: skyblue;
-      }
+th{
+  color: skyblue;
+}
 
-      td{
-        color: white;
-      }
+td{
+  color: white;
+}
 
-      label{
-        color: white;
-      }
+label{
+  color: white;
+}
 
-      hr{
-        background-color: goldenrod;
-        border-style: none;
-        height: 2px;
-      }
+hr{
+  background-color: goldenrod;border-style: none;
+  height: 2px;
+}
+
 
