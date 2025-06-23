@@ -1,37 +1,118 @@
  body{
- background-color: rgb(23, 22, 22);
+  background-color: rgb(23, 22, 22);
+  margin: 3px;
+}
+.welcome{
+  text-align: center;
+  height: 50px;
+}
+
+.sub_welcome1{
+  font-size: 25px;
+}
+
+.sub_welcome2{
+  font-size: 65px;
+}
+
+.homepage{
+  text-align: center;
+}
+
+.homepage_img1{
+  height: 100%;
+  width: 100%;
+}
+
+.homepage_img2{
+  height: 100%;
+  width: 100%;
+}
+
+.hmpics1{
+  height: 100%;
+  width: 50%;
+  background-color: lightgrey;
+  position: absolute;
+  display: inline-block;
+  left: 0px;
+}
+
+.hmpics2{
+  height: 100%;
+  width: 50%;
+  background-color: grey;
+  position: absolute;
+  display: inline-block;
+  right: 0px;
 }
 
 h1{
-  color: goldenrod;
+  color: goldenrod; 
+  font-size: 58px;
+}
+
+h1:hover{
+  color: greenyellow;
+}
+
+/* Reference to an ID */
+/* ID should be used for a unique identifer and can only be used once on a page, unlike the class selector */
+#profile-name{
+  font-size: 58px;
 }
 
 h2{
   color: skyblue;
+  margin: 3px;
+}
+
+h2:hover{
+  color: rgb(135, 145, 235);
 }
 
 h3{
   color: skyblue;
 }
 
+h3:hover{
+  color: rgb(135, 145, 235);
+}
+
+/* Reference to a class */
+/* Class should be used for a group elements whose properties would be the same. */
+/* An HTML element can have multiple classes unlike the ID selector */
+.prof{
+  font-size: 25px;
+}
+
 p{
   color: white;
+  font-size: 17px;
 }
 
 ul{
   color: white;
+  font-size: 17px;
 }
 
 ol{
   color: white;
+  font-size: 17px;
 }
 
 a{
   color: goldenrod;
+  font-size: 17px;
+}
+
+a:hover{
+  color: rgb(0, 255, 217);
 }
 
 th{
   color: skyblue;
+  font-size: 17px;
 }
 
 td{
@@ -46,5 +127,4 @@ hr{
   background-color: goldenrod;border-style: none;
   height: 2px;
 }
-
 
