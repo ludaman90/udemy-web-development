@@ -3,18 +3,14 @@
   margin: 0;
 }
 
-.homepage_img1{
-  
-}
-
 .container{
   margin-top: 0;
 }
 
 .menu{
   margin: 0;
-  height: 8%;
-  width: 8%;
+  height: 9%;
+  width: 6%;
   position: absolute;
   display: inline-block;
   left: 5px;
@@ -32,21 +28,42 @@
 
 .welcome{
   text-align: center;
-  height: 50px;
+  position: absolute;
+  margin: 5px;
+  left: 25%;
+  width: 70%;
+  height: 50vh;
 }
 
 .sub_welcome1{
   font-size: 25px;
+  margin: 3px;
+  position: absolute;
+  line-height: 40px;
+  left: 50%;
+}
+
+.welc_cm1{
+  text-align: center;
+  margin: 0px;
 }
 
 .sub_welcome2{
   font-size: 65px;
+  margin: 5px;
+  position: absolute;
+  border-top: 70px;
+  left: 300px;
+}
+
+.welc_cm2{
+  text-align: center;
+  margin: 0px;
 }
 
 .homepage_img1{
   height: 100%;
   width: 100%;
-  padding:0;
 }
 
 .homepage_img2{
