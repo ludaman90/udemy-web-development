@@ -1,7 +1,35 @@
  body{
   background-color: rgb(23, 22, 22);
-  margin: 3px;
+  margin: 0;
 }
+
+.homepage_img1{
+  
+}
+
+.container{
+  margin-top: 0;
+}
+
+.menu{
+  margin: 0;
+  height: 8%;
+  width: 8%;
+  position: absolute;
+  display: inline-block;
+  left: 5px;
+}
+
+.menuicon{
+  width: 50px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+.pagelinks{
+  margin-top: 0;
+}
+
 .welcome{
   text-align: center;
   height: 50px;
@@ -15,13 +43,10 @@
   font-size: 65px;
 }
 
-.homepage{
-  text-align: center;
-}
-
 .homepage_img1{
   height: 100%;
   width: 100%;
+  padding:0;
 }
 
 .homepage_img2{
@@ -48,12 +73,12 @@
 }
 
 h1{
-  color: goldenrod; 
+  color: gold; 
   font-size: 58px;
 }
 
 h1:hover{
-  color: greenyellow;
+  color: yellow;
 }
 
 /* Reference to an ID */
@@ -63,12 +88,12 @@ h1:hover{
 }
 
 h2{
-  color: skyblue;
+  color: gold;
   margin: 3px;
 }
 
 h2:hover{
-  color: rgb(135, 145, 235);
+  color: yellow;
 }
 
 h3{
