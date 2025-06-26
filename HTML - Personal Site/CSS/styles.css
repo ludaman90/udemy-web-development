@@ -9,7 +9,7 @@ h1{
 }
 
 h1:hover{
-  color: yellow;
+  color: white;
 }
 
 .container{
@@ -26,9 +26,10 @@ h1:hover{
 }
 
 .menuicon{
-  width: 50px;
+  width: 70%;
   cursor: pointer;
-  margin-left: 0px;
+  position: absolute;
+  object-fit: cover;
 }
 
 .pagelinks{
@@ -48,14 +49,18 @@ h1:hover{
   font-size: 25px;
   margin: 3px;
   position: absolute;
-  line-height: 40px;
-  left: 45%;
+  line-height: 30px;
+  left: 43%;
 }
 
 .welc_cm1{
   text-align: center;
-  color: rgb(53, 56, 215);
+  color: white;
   margin: 0px;
+}
+
+.welc_cm1:hover{
+  color: gold;
 }
 
 .sub_welcome2{
@@ -64,8 +69,8 @@ h1:hover{
   margin: 5px;
   position: absolute;
   border-top: 70px;
-  left: 330px;
-  top: 180px;
+  left: 26.5%;
+  top: 32vh;
 }
 
 .welc_cm2{
@@ -77,13 +82,14 @@ h1:hover{
   width: 50%;
   font-size: 20px;
   position: absolute;
-  left: 370px;
-  top: 390px;
+  left: 26.6%;
+  top: 68vh;
 }
 
 .welc_cm3{
   text-align: center;
   margin: 0px;
+  font-style:italic;
 }
 
 .homepage_img1{
@@ -128,7 +134,7 @@ h2{
 }
 
 h2:hover{
-  color: yellow;
+  color: white;
 }
 
 h3{
@@ -188,3 +194,17 @@ hr{
   height: 2px;
 }
 
+
+
+
+/* Udemy page */
+
+.aux-top-image{
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 15%;
+  left: 70%;
+}
