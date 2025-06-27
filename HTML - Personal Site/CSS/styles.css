@@ -199,12 +199,42 @@ hr{
 
 /* Udemy page */
 
+.aux-top-container{
+  position: relative;
+}
+
 .aux-top-image{
   width: 100px;
   height: auto;
   border-radius: 50%;
   object-fit: cover;
   position: absolute;
-  top: 15%;
+  top: 35px;
   left: 70%;
+}
+
+.aux-intro{
+  text-align: center;
+}
+
+.aux-subintro{
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.aux-bottom-image{
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 230px;
+  left: 20%;
+}
+
+
+.aux-fill-image{
+  position: absolute;
+  left: 30%;
 }
