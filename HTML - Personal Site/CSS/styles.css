@@ -233,8 +233,13 @@ hr{
   left: 20%;
 }
 
-
 .aux-fill-image{
   position: absolute;
   left: 30%;
+}
+
+
+.aux-prof-image{
+  position: absolute;
+  top: 500px;
 }
